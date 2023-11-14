@@ -28,7 +28,7 @@
                 <div class="load"></div>
                 <div class="input-field">
                     <label>Nome do Celular</label>
-                    <input type="text" name="cel_nome"
+                    <input type="text" name="cel_nome">
                 </div>
                 <div class="input-field">
                     <label>Nome</label>
@@ -38,6 +38,31 @@
                     <label>Email</label>
                     <input type="text" name="cli_email">
                 </div>
+
+                <fieldset>
+                    <legend><h6>Estado do Celular</h6></legend>
+
+                    <div>
+                        <input type="radio" id="nao Iniciado" name="drone" value="nao iniciado" checked/>
+                        <label for="nao Iniciado">Não iniciado</label>
+                    </div>
+    
+                     <div>
+                         <input type="radio" id="em concerto" name="drone" value="em concerto" />
+                         <label for="em concerto">Em concerto</label>
+                     </div>
+    
+                        <div>
+                            <input type="radio" id="pronto para entrega" name="drone" value="pronto para entrega" />
+                           <label for="pronto para entrega">Pronto para entrega</label>
+                       </div>
+    
+                      <div>
+                            <input type="radio" id="ja entregue" name="drone" value="ja entregue" />
+                           <label for="ja entregue">Já entregue</label>
+                        </div>
+                    </fieldset>
+                    
                 <input class="btn indigo" type="submit" value="Cadastrar">
             </form>
             <div class="msg"></div>

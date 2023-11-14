@@ -60,7 +60,7 @@ $(function(){
         return false;
     });
 
-    $(document).on('submit', 'form[name="formularioUpdateCliente"]', function () {
+    $(document).on('submit', 'form[name="formularioUpdate"]', function () {
         var forma = $(this);
         var dados = forma.serialize();
         $.ajax({

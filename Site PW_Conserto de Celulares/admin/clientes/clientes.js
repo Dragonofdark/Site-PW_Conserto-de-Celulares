@@ -1,5 +1,5 @@
 $(function(){
-    $(document).on('submit', 'form[name="form_cliente"]', function () {
+    $(document).on('submit', 'form[name="formularioCliente"]', function () {
         var forma = $(this);
         var dados = forma.serialize();
         $.ajax({
@@ -29,7 +29,7 @@ $(function(){
         return false;
     });
 
-    $(document).on('click', '.deleteClientes', function () {
+    $(document).on('click', '.delete', function () {
         var forma = $(this);
         var cli_id = forma.attr('cli_id');
         dados = {cli_id: cli_id}
@@ -60,7 +60,7 @@ $(function(){
         return false;
     });
 
-    $(document).on('submit', 'form[name="form_update_cliente"]', function () {
+    $(document).on('submit', 'form[name="formularioUpdateCliente"]', function () {
         var forma = $(this);
         var dados = forma.serialize();
         $.ajax({

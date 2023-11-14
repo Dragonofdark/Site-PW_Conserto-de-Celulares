@@ -1,7 +1,7 @@
 <?php
 function conectar(){
     $host = 'localhost';
-    $banco = 'projeto_js_php';
+    $banco = 'concerto_celulares';
     $usuario = 'root';
     $senha = '';
 

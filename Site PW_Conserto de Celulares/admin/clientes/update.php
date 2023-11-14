@@ -3,7 +3,7 @@
 header('Content-type: application/json');
 header('Access-Control-Allow-Origin:*');
 
-include 'conexao.php';
+include '../../conexao.php';
 
 $post = filter_input_array(INPUT_POST, FILTER_DEFAULT); 
 $id = $post['cli_id'];

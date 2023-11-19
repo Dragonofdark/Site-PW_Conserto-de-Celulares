@@ -15,7 +15,7 @@ $(function () {
     if (resposta.error ==='success') {
         $('.msg').text(resposta.msg);
         setTimeout(function () {
-            $(location).attr('href', 'admin/home.php');
+            $(location).attr('href', '../admin/home.php');
     }, 2000);
     } else {
     $('.msg').text(resposta.msg);
